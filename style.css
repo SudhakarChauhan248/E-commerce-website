@@ -1,0 +1,500 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+html{
+    scroll-behavior: smooth;
+}
+body{
+    background-color:powderblue;
+    color:black;
+    /* background-image: url(image/bg2.jpg); */
+
+}
+
+#header{
+    width: 100%;
+    height: 100vh;
+    background-image:url();
+    background-size: cover;
+    background-position: center;
+}
+
+.container nav{
+    background-color: rgb(251, 98, 42);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    height: 80px;
+    position: fixed;
+    width: 100%;
+    height: 70px;
+}
+.container p{
+    font-family: 'DM Serif Text';
+    font-size: xx-large;
+}
+
+nav p img{
+    height: 70px;;
+    border-radius: 20%;
+}
+nav ul{
+    margin-left: 800px;
+    /* padding-left: 800px; */
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    margin: 10px 20px;
+
+}
+nav ul li a{
+    color:#fff;
+    text-decoration: none;
+    font-size: 22px;
+    position: relative;
+}
+nav ul li a::after{
+    content:'';
+    width:0%;
+    height: 3px;
+    background: #ff004f;
+    position: absolute;
+    left:0;
+    bottom: -6px;
+    transition: 0.5s;
+}
+/* nav ul li a:hover::after{
+    width: 100%;
+} */
+
+.header-text{
+    margin: top 20%;
+    font-size: 37px;
+}
+.header-text h1{
+    padding: 10px 10%;
+    font-size :60px;
+    margin-top: 20px;
+}
+.header-text h1 span{
+    color: #ed9ab4;
+    font-size: 60px;
+}
+
+
+/* -------------About---------------- */
+#about{
+    margin-top: 150px;
+    padding: 180px 0;
+    color: #ababab;
+    /* color: #ff004f; */
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1{
+    flex-basis: 35%;
+}
+.about-col-1 img{
+    width: 100%;
+    border-radius: 15px;
+}
+.about-col-2{
+    padding-top: 50px;
+    flex-basis: 60%;
+    margin-left: -250px;
+
+}
+.about-col-2 p{
+    color: black;
+}
+.sub-title{
+    font-size: 60px;
+    font-weight: 600;
+    color:#fff;
+}
+
+
+/* ----------------------Menu---------------- */
+#menu{
+    padding: 20px 10%;
+}
+.services-list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,minmax(250px,1fr));
+    grid-gap: 40px;
+    margin-top: 50px;
+}
+.services-list div{
+    height: 200px;
+    border-radius: 40px;
+    transition: background 0.5s,transform 0.5s;
+    background-size: cover;
+    margin-bottom: 30px;
+}
+.services-list a{
+    text-decoration: none;
+}
+.services-list a div p{
+    padding: 200px 0px 0px 80px;
+    color: orangered;
+    outline-color: black;
+}
+div h1{
+    padding-top: 50px;
+}
+.services-list div:hover{
+    transform: translateY(-10px);
+}
+
+
+/* variation */
+
+#Ice-cream{
+    padding-top: 80px 0px 20px;
+    margin: 150px;
+}
+#Ice-cream h1{
+    font-size: 60px;
+    color: orangered;
+    padding-bottom: 5px;
+}
+.food div{
+    display: inline-block;
+    color: black;
+    font-weight:bold;
+}
+.food div p{
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+/* juice */
+
+#Juice{
+    padding-top: 80px 0px 20px;
+    margin: 150px;
+    font-weight:bold;
+}
+#Juice h1{
+    font-size: 60px;
+    color: orangered;
+    padding-bottom: 5px;
+}
+.main div{
+    display: inline-block;
+    color: #080808;
+}
+.main div img{
+    height: 267px; 
+    width: 400px;
+}
+.main div p{
+    margin-left: 100px;
+    font-size: 20px;
+}
+/* pizza */
+#Pizza{
+    padding-top: 80px 0px 20px;
+    margin: 150px;
+    font-weight:bold;
+}
+#Pizza h1{
+    font-size: 60px;
+    color: orangered;
+    padding-bottom: 5px;
+}
+.header div{
+    display: inline-block;
+    color: #080808;
+}
+.header div img{
+    height: 267px;
+    width: 400px;
+}
+.header div p{
+    margin-left: 100px;
+    font-size: 20px;
+}
+/* Sandwich */
+
+#Sandwich{
+    padding-top: 80px 0px 20px;
+    margin: 150px;
+    font-weight:bold;
+}
+#Sandwich h1{
+    font-size: 60px;
+    color: orangered;
+    padding-bottom: 5px;
+}
+.head div{
+    display: inline-block;
+    color: #080808;
+}
+.head div img{
+    height: 267px;
+    width: 400px;
+}
+.head div p{
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+/* cake */
+
+#Cake{
+    padding-top: 80px 0px 20px;
+    margin: 150px;
+    font-weight:bold;
+}
+#Cake h1{
+    font-size: 60px;
+    color: orangered;
+    padding:0px 0px 10px 10px;
+
+}
+.head2 div{
+    display: inline-block;
+    color: #080808;
+    margin-right: 50px;
+}
+.head2 div img{
+    height: 267px;
+    width: 350px;
+}
+.head2 div p{
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+/* hotdog */
+
+#Hotdog{
+    padding-top: 80px 0px 20px;
+    margin: 150px;
+    font-weight:bold;
+}
+#Hotdog h1{
+    font-size: 60px;
+    color: orangered;
+    margin-top: 30px;
+    padding-left: 10px;
+}
+.head3 div{
+    display: inline-block;
+    color: #080808;
+    margin-right: 40px;
+}
+.head3 div img{
+    margin-top: 40px;
+    height: 267px;
+    width: 350px;
+}
+.head3 div p{
+    margin-left: 80px;
+    font-size: 20px;
+}
+/* Pasta */
+
+#Pasta{
+    padding-top: 80px 0px 20px;
+    margin:150px;
+    font-weight:bold;
+}
+#Pasta h1{
+    font-size: 60px;
+    color: orangered;
+    margin-top: 30px;
+    padding: 20px 0px 0px 15px;
+}
+.head4 div{
+    display: inline-block;
+    color: #080808;
+    margin-right: 40px;
+}
+.head4 div img{
+    margin-top: 40px;
+    height: 267px;
+    width: 350px;
+}
+.head4 div p{
+    margin-left: 80px;
+    font-size: 20px;
+}
+
+/* Burger */
+
+#Burger{
+    padding-top: 80px 0px 20px;
+    margin: 150px;
+    font-weight:bold;
+}
+#Burger h1{
+    font-size: 60px;
+    color: orangered;
+    padding-bottom: 5px;
+}
+.head5 div{
+    display: inline-block;
+    color: #080808;
+}
+.head5 div img{
+    height: 240px; 
+    width: 380px;
+}
+.head5 div p{
+    margin-left: 100px;
+    font-size: 20px;
+}
+
+/* -----------order--------------- */
+
+#Order{
+    padding: 80px 0px 0px 140px;
+}
+div .main form input{
+    height: 40px;
+    margin: 10px 0px 0px 0px;
+    background-color: #262626;
+    color: #ababab;
+    border-radius: 5px;
+    border-width: 2px;
+    border-color:antiquewhite;
+    display: flex;
+}
+
+div button{
+    height: 40px;
+    width: 80px;
+    margin:0px 0px 0px 1010px;
+    background-color:#ff004f;
+}
+.pay{
+    background-color: #f3f0f0;
+}
+
+.pay a{
+    text-decoration: none;
+    color: #080808;
+}
+
+/* -------contact--------- */
+
+#contact{
+    padding: 200px 0px 0px 140px;
+}
+#main1{
+    font-size:30px;
+    color: orangered;
+    margin-left: 450px;
+}
+div hr{
+    margin-left: -140px;
+    border-width: 2px;
+}
+div section{
+    margin-left:-200px ;
+    text-align: center;
+    font-size: 30px;
+    color: #080808;
+}
+.main .fa-solid {
+    color: darkblue;
+    padding-right: 10px;
+}
+
+
+.social-icons{
+    margin-top: 30px;
+}
+.social-icons a{
+    text-decoration: none;
+    font-size: 30px;
+    margin-right: 15px;
+    color: #ababab;
+    display: inline-block;
+    transition: transform 0.5s;
+}
+.social-icons a:hover{
+    color: #ff004f;
+    transform: translateY(-5px);
+}
+.btn.btn2{
+    display: inline-block;
+    background:#ff004f;
+}
+.contact-right form{
+    width: 100%;
+}
+form input, form textarea{
+    width:  80%;
+    border: 0;
+    outline: none;
+    background: #262626;
+    padding: 12px;
+    margin:15px 0;
+    color:#fff;
+    font-size: 18px;
+    border-radius: 6px;
+}
+form .btn2{
+    padding: 14px 60px;
+    font-size: 18px;
+    margin-top: 20px;
+    cursor: pointer;
+}
+
+/* Login form */
+
+.login-form {
+	width: 500px;
+	margin: 50px auto;
+	padding: 20px;
+	border: 2px solid #080808;
+	border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    background-color: #f3f0f0;
+}
+
+.login-form h2 {
+	text-align: center;
+	margin-bottom: 20px;
+}
+
+.login-form label {
+	display: block;
+	margin-bottom: 10px;
+}
+
+.login-form input[type="text"], .login-form input[type="password"] {
+	width: 100%;
+	height: 40px;
+	margin-bottom: 20px;
+	padding: 10px;
+	border: 1px solid #ccc;
+}
+
+.login-form input[type="submit"] {
+	width: 100%;
+	height: 40px;
+	background-color: #4CAF50;
+	color: #fff;
+	padding: 10px;
+	border: none;
+	border-radius: 10px;
+	cursor: pointer;
+}
+
+.login-form input[type="submit"]:hover {
+	background-color: #3e8e41;
+}

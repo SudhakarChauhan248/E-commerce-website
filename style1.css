@@ -1,0 +1,186 @@
+html{
+    scroll-behavior: smooth;
+}
+
+/* payment */
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+    background-color:whitesmoke;
+}
+div{
+    border-radius: 10px;
+}
+#or{
+    height: 650px;
+    width: 600px;
+    border-radius: 10px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    margin: 10px 0px 10px 450px;
+    background-color: #fac031;
+}
+#pa{
+    font-size:40px;
+    height:50px ;
+    width:600px;
+    padding: 0px 0px 0px 50px;
+    color:brown;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color:#fac031;
+}
+
+#ra{
+    font-size:40px;
+    height:50px ;
+    width:600px;
+    padding: 0px 0px 0px 50px;
+    color:#080808;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #fac031;
+}
+#or form{
+    margin-top: 100px;
+    padding-left: 90px;
+    background-color: #fac031;
+}
+
+form div{
+    margin-top: 10px;
+    background-color: #fac031;
+}
+div label{
+    color: black;
+    font-size: 20px;
+    background-color: #fac031;
+}
+div input{
+    height: 35px;
+    width:400px;
+    background-color: white;
+}
+div button{
+    color: aliceblue;
+    background-color: #fa3171;
+    height: 40px;
+    width: 100px;
+    font-size: 10px;
+    margin: 50px 0px 100px 95px;
+}
+
+
+/* add to cart */
+
+nav{
+    background-color: #eef135d1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    height: 50px;
+    border: 1px solid black;
+    position:sticky;
+    top: 0%;
+}
+nav span{
+    background-color: #e4f3f1;
+    height: 44px;
+    width:420px ;
+    padding:8px 0px 0px 160px;
+    border: 1px solid grey;
+    color: rgb(44, 45, 45);
+    font-size: 25px;
+}
+.real{
+    display: flex;
+    align-items: center;
+    background-color: rgb(83, 251, 251);
+}
+.real div{
+    display: inline-block;
+    margin:10px 0px 0px 50px;
+    height: 330px;
+    background-color: rgb(83, 251, 251);
+}
+.real div img{
+    background-size: cover;
+    border-radius: 30px;
+    border:2px solid rgb(46, 45, 45);
+}
+.real div h3{
+    padding: 5px 0px 5px 100px;
+    background-color: #fac031;
+    border: 1px solid black;
+    width: 400px;
+    border-radius:5px;
+}
+.real input{
+    background-color: whitesmoke;
+    margin-left: 115px;
+    width: 400px;
+    height: 42px;
+    border-radius: 3px;
+}
+.real span{
+    background-color: #fac031;
+    font-size: 30px;
+    border: 1px double black;
+    margin-left:150px;
+    padding-left: 50px;
+    width:250px;
+    border-radius: 3px;
+}
+
+/* chocolate ice */
+#real-1 img{
+    background-size: cover;
+    border-radius: 30px;
+    border:2px solid rgb(46, 45, 45);
+    height: 267px;
+    width: 400px;
+}
+
+#ice-2 img{
+    height: 267px;
+    width: 400px;
+}
+#ice-3 img{
+    height: 267px;
+    width: 400px;
+}
+
+/* Juice */
+
+#juice-1 img{
+    height: 267px;
+    width: 400px;
+}
+
+/* Pizza */
+
+#pizza-1 img{
+    height: 267px;
+    width: 400px;
+}
+
+/* cake */
+
+#cake-1 img{
+    height: 267px;
+    width: 400px;
+}
+
+/*  pasta*/
+
+#pasta-1 img{
+    height: 267px;
+    width: 400px;
+}
+
+/* burger */
+
+#burger-1 img{
+    height: 267px;
+    width: 400px;
+}

@@ -1,2 +1,1 @@
-# E-commerce-website
-First website on E-commerce
+# E-Commerce_website
